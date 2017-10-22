@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voting App</title>
+</head>
+<body>
+<p>Vote Noew!</p>
+<form action="vote" method="post">
+<div>
+<label for="sandwiches-button"> Sandwiches</label>
+<input name="yourVote" id="sandwiches-button" typeP"radio" value=" sandwiches"/>
+</div>
+<div>
+<label for="tacos-button">Tacos</label>
+<input type ="submit" name="submit" id="submit" value="Vote!" />
+</form>
+<ul>
+<il>Sandwiches: <%= votes.sandwiches %></li>
+<li>Tacos: <%= votes.tacos %></li>
+
+    
+</body>
+</html>
